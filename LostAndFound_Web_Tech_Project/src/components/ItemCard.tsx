@@ -62,7 +62,7 @@ export const ItemCard = ({
         {item.resolved && (
           <div className="absolute inset-0 bg-secondary/10 flex items-center justify-center">
             <div className="bg-secondary text-secondary-foreground px-3 py-1 rounded-full font-semibold text-sm shadow-lg">
-              ✅ Resolved
+              Resolved
             </div>
           </div>
         )}
@@ -78,7 +78,7 @@ export const ItemCard = ({
             }
             className="font-semibold"
           >
-            {item.type === "lost" ? "🔍 Lost" : "✨ Found"}
+            {item.type === "lost" ? "Lost" : "Found"}
           </Badge>
         </div>
         <div className="absolute top-3 right-3">

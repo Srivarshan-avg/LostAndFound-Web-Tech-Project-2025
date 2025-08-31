@@ -108,7 +108,7 @@ const Index = () => {
               className="gap-2 border-indigo-600 hover:border-indigo-400 text-indigo-400 hover:text-indigo-200 transition-colors duration-300"
               onClick={() => setShowResolved((v) => !v)}
             >
-              {showResolved ? "👁️ Hide Resolved" : "👁️ Show Resolved"}
+              {showResolved ? "Hide Resolved" : "Show Resolved"}
             </Button>
           </div>
           <ItemGrid
